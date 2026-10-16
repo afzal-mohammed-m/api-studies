@@ -1,0 +1,96 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f6fb;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.login-card,
+.stat-card {
+  width: 100%;
+  max-width: 380px;
+  padding: 30px;
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+  margin-top: 0;
+  color: #1e293b;
+}
+
+.login-card > p {
+  color: #64748b;
+}
+
+label {
+  display: block;
+  margin-top: 18px;
+  margin-bottom: 7px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  outline-color: #2563eb;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 22px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.error {
+  color: #dc2626;
+  font-size: 14px;
+}
+
+.stat-card > p {
+  color: #15803d;
+}
+
+.stat {
+  padding: 18px;
+  margin-top: 20px;
+  background: #f0fdf4;
+  border-radius: 10px;
+}
+
+.stat span {
+  color: #64748b;
+  font-size: 13px;
+}
+
+.stat h3 {
+  margin-bottom: 0;
+  color: #166534;
+}
